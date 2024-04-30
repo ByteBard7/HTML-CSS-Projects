@@ -215,12 +215,6 @@ main {
     font-size: 1.2rem;
     font-weight: bold;
   }
-
-  .fa-bag-shopping {
-    position: fixed;
-    top: 22px;
-    right: 62px;
-  }
 }
 
 @media (min-width: 768px) {
