@@ -172,7 +172,7 @@ main {
 
 .transition:hover {
   transform: translateY(-20px);
-  transition: 0.7 ease;
+  transition: 0.8 ease;
   border: solid #80808023;
   border-radius: 20px;
 }
