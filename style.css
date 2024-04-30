@@ -52,10 +52,6 @@ body {
   font-family: "Times New Roman", Times, serif;
 }
 
-.menu li:hover {
-  background-color: #80808023;
-}
-
 .menu-button-container {
   display: none;
   height: 100%;
@@ -128,7 +124,7 @@ main {
 .hero-text button {
   background-color: black;
   color: white;
-  padding: 10px 20px;
+  padding: 0.5rem 1.2rem;
   border-radius: 30px;
   font-size: 1.2rem;
   border: none;
@@ -224,5 +220,11 @@ main {
     position: fixed;
     top: 22px;
     right: 62px;
+  }
+}
+
+@media (min-width: 768px) {
+  .menu li:hover {
+    background-color: #80808023;
   }
 }
