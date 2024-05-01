@@ -176,13 +176,14 @@ main {
   transition: 0.5s ease-in-out;
 }
 
-.featured-product-container {
+/* featured and latest product section  */
+.featured-product-container , .latest-products {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.featured {
+.featured , .row{
   display: flex;
   justify-content:space-evenly;
   max-width: 90%;
@@ -190,7 +191,7 @@ main {
 }
 
 
-.featured .product {
+.featured .product, .latest-products .product {
   margin-top: 20px;
   max-width: 17%;
 }
@@ -200,8 +201,16 @@ main {
   height: 60%;
 }
 
+.product p {
+  font-weight: bold;
+}
 
-@media (max-width: 768px) {
+.latest-products h1 {
+  font-size: 2rem;
+}
+
+
+@media (max-width: 780px) {
   .menu-button-container {
     display: flex;
   }
