@@ -225,7 +225,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 4rem;
 }
 
 .exclusive img {
@@ -250,6 +250,57 @@ main {
   background-color: white;
   color: black;
   border: 1px solid black;
+}
+
+
+/* testimonal  */
+
+.testimonal {
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.testimonal-row , .brands{
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+}
+
+.testimonal-row .person {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+  width: 25%;
+  padding: 2rem;
+  gap: 15px;
+  box-shadow:0 0 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.testimonal-row .person img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+
+.person h3 {
+  margin: 0;
+}
+
+
+.brands img{
+  width: 130px;
+  height: 80px;
+  filter: grayscale(100%);  
+  transition: 0.5s ease;
+}
+
+.brands img:hover {
+  filter: grayscale(0%);
 }
 
 @media (max-width: 780px) {
