@@ -13,6 +13,10 @@ body {
   box-sizing: border-box;
 }
 
+.featured-product-container h1 ,.latest-products h1 {
+  border-bottom: solid black ;
+}
+
 .top-nav {
   display: flex;
   flex-direction: row;
