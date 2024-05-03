@@ -212,6 +212,10 @@ main , .latest-products{
 }
 
 
+.exclusive-text h1 {
+  font-size: 2.5rem;
+}
+
 /* testimonal styles  */
 
 .testimonal-row {
@@ -231,6 +235,7 @@ main , .latest-products{
   padding: 1.5em;
   text-align: justify;
   margin-bottom: 4em;
+  gap: 1rem;
 }
 
 .person img {
@@ -238,6 +243,28 @@ main , .latest-products{
   height: auto;
   border-radius: 100%;
 }
+
+
+/* brands styles  */
+
+.brands {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.brands img {
+  width: 100px;
+  height: auto;
+  object-fit: contain;
+  filter: grayscale(100%);
+}
+
+.brands img:hover {
+  filter: grayscale(0%);
+}
+
+
 
 @media (max-width: 780px) {
   .menu-button-container {
@@ -298,7 +325,6 @@ main , .latest-products{
     height: 300px;
   }
 
-
   img {
     width: 100%;
     height: 300px;
@@ -321,5 +347,9 @@ main , .latest-products{
 
   .row {
     margin-bottom: 150px;
+  }
+
+  .exclusive .product {
+    margin: 0 4rem;
   }
 }
