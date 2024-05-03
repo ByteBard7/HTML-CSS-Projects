@@ -135,16 +135,18 @@ main , .latest-products{
 }
 
 .hero-text p{
-  font-size: 1rem;
+  font-size: 0.8rem;
+  text-align: justify;
 }
 
 .btn {
   background-color: black;
   color: white;
   font-size: 1rem;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 2rem;
   border: none;
   border-radius: 20px;
+  margin-top: 1.2em;
 }
 
 
@@ -351,5 +353,13 @@ main , .latest-products{
 
   .exclusive .product {
     margin: 0 4rem;
+  }
+
+  .hero-text {
+    max-width: 60%;
+  }
+
+  .btn {
+    padding: 0.7rem 3rem;
   }
 }
