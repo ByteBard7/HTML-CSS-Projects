@@ -206,6 +206,38 @@ main , .latest-products{
   max-width: 50%;
 }
 
+.exclusive-text p {
+  font-size: 0.8rem;
+  text-align: justify;
+}
+
+
+/* testimonal styles  */
+
+.testimonal-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 3rem 0;
+}
+
+.person {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: auto;
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+  padding: 1.5em;
+  text-align: justify;
+  margin-bottom: 4em;
+}
+
+.person img {
+  width: 50px;
+  height: auto;
+  border-radius: 100%;
+}
 
 @media (max-width: 780px) {
   .menu-button-container {
@@ -278,7 +310,7 @@ main , .latest-products{
   }
 
   .exclusive-text {
-    min-width: 70%;
+    min-width: 80%;
   }
 }
 
