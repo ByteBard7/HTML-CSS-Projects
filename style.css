@@ -121,10 +121,13 @@ main , .latest-products{
   display: flex;
   justify-content: center;
   align-items: center;
+  max-width: 90vw;
+  align-self: center;
 }
 
 .hero-text {
   padding: 1.4rem;
+  text-align: start;
 }
 
 .hero-text h1 {
@@ -181,9 +184,28 @@ main , .latest-products{
   display: inline;
 }
 
+/* exclusive section styles  */
 
+.exclusive {
+  background: rgba(243, 243, 243, 1);
+  background: radial-gradient(at center , rgba(243, 243, 243, 1), rgba(170, 158, 129, 1));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  min-height: 30%;
+  padding-bottom: 2rem;
+}
 
-/* latest product styles  */
+.exclusive .product {
+  width: 250px;
+  height: auto;
+}
+.exclusive-text {
+  max-width: 50%;
+}
+
 
 @media (max-width: 780px) {
   .menu-button-container {
@@ -253,6 +275,10 @@ main , .latest-products{
   .product div , 
   h3 , .rating , .product p{
     margin: 1px;
+  }
+
+  .exclusive-text {
+    min-width: 70%;
   }
 }
 
