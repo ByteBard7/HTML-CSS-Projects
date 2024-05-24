@@ -360,11 +360,7 @@ main , .latest-products{
   .exclusive .product {
     margin: 0 4rem;
   }
-
-  .hero-text {
-    max-width: 60%;
-  }
-
+  
   .btn {
     padding: 0.7rem 3rem;
   }
